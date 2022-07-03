@@ -15,7 +15,7 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           <Typewriter
             options={{
-              strings: ["I'm a Software Developer.", "I'm a Student.", "I'm an Active Learner."],
+              strings: ["I'm a Software Developer.", "I'm a CS Student.", "I'm an Active Learner."],
               autoStart: true,
               loop: true,
             }}
