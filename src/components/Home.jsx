@@ -66,23 +66,23 @@ const Home = () => {
           </MovingComponent>
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600'>
-            <MovingComponent
-              type="jelly"
-              duration="1100ms"
-              delay="index * 100ms"
-              direction="normal"
-              timing="ease"
-              iteration="1"
-              fillMode="none">
-              <Link to='work' smooth={true} duration={500}>
-                View Work
-              </Link>
-            </MovingComponent>
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-          </button>
+          <Link to='work' smooth={true} duration={500}>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600'>
+              <MovingComponent
+                type="jelly"
+                duration="1100ms"
+                delay="index * 100ms"
+                direction="normal"
+                timing="ease"
+                iteration="1"
+                fillMode="none">
+                View Work  
+              </MovingComponent>
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3 ' />
+              </span>
+            </button>
+         </Link>
         </div>
       </div>
     </div>
