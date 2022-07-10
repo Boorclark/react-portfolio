@@ -9,7 +9,7 @@ import Experience from "./components/Experience"
 
 function App() {
   return (
-    <div >
+    <div className="">
       <AnimatedCursor
         innerSize={8}
         outerSize={16}
