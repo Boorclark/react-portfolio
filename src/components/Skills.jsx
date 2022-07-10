@@ -3,15 +3,10 @@ import React from 'react';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import Bootstrap from '../assets/bootstrap.png'
 import Flask from '../assets/flask.png'
-import MySQL from '../assets/mysql.png'
 import Python from '../assets/python.png'
-import SQLite from '../assets/sqlite.png'
 import Git from '../assets/git.png'
 
 
@@ -22,7 +17,7 @@ const Skills = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-orange-600 '>Technical Skills</p>
-              <p className='py-4'>// These are the technologies I've worked with</p>
+              <p className='py-4'>// These are the technologies I've worked with the most</p>
           </div>
           <div className='w-full items-end grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='hover:scale-110 duration-500'>
@@ -54,24 +49,8 @@ const Skills = () => {
                   <p className='my-4'>FLASK</p>
               </div>
               <div className='hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="REACT icon" />
-                  <p className='my-4'>REACT</p>
-              </div>
-              <div className='hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
-                  <p className='my-4'>TAILWIND CSS</p>
-              </div>
-              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Bootstrap} alt="BOOTSRAP icon" />
                   <p className='my-4'>BOOTSTRAP</p>
-              </div>
-              <div className='hover:scale-110 duration-500'>
-                  <img className='w-40 mx-auto' src={SQLite} alt="SQLITE icon" />
-                  <p className='my-4'>SQLITE</p>
-              </div>
-              <div className='hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={MySQL} alt="MySQL icon" />
-                  <p className='my-4'>MYSQL</p>
               </div>
           </div>
       </div>
