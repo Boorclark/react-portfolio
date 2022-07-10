@@ -60,7 +60,7 @@ const Home = () => {
             timing="ease"
             iteration="1"
             fillMode="none">
-            I'm a software developer who builds and designs exceptional user-focused applications and digital experiences. 
+            I'm a software developer and student who is learning to build exceptional user-focused applications and digital experiences. 
             Currently, I am achieving this through developing an application for Berea College's CELTS program alongside a 
             team of excellent software developers.
           </MovingComponent>
