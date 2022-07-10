@@ -59,7 +59,13 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-        <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
